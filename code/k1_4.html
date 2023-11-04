@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<table align="center" border=1 cellpadding="5" cellspacing="1" width="900px">
+  <tr>
+    <td><h3>Навигационная часть:</h3><br>
+      <a href="k1_1.html" target="_self">Главная</a><br>
+      <a href="k1_2.html" target="_self">История Москвы</a><br>
+      <a href="k1_3.html" target="_self">Домашние задания</a><br>
+      <a href="k1_4.html" target="_self" style="font-weight: bold;">Решение алгоритмической задачи</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <h3>Решение задачи: Определить значение функции Z = 1/(XY) при произвольных X и Y .</h3>
+
+    <label for="x">Введите значение X: </label>
+    <input type="number" id="x" required>
+    <br><br>
+    <label for="y">Введите значение Y: </label>
+    <input type="number" id="y" required>
+    <br><br>
+    <button onclick="calculate()">Рассчитать</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
